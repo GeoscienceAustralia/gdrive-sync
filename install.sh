@@ -9,5 +9,5 @@ mv rclone-v1.37-linux-amd64/rclone .
 sed -i 's#token =#token = '"$GDRIVE_TOKEN"'#' rclone.conf
 
 # Copy rclone config
-mkdir -p .config/rclone
-cp rclone.conf .config/rclone/rclone.conf
+mkdir -p ~/.config/rclone
+cp rclone.conf ~/.config/rclone/rclone.conf
