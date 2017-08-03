@@ -11,3 +11,4 @@ sed -i 's#token =#token = '"$GDRIVE_TOKEN"'#' rclone.conf
 # Copy rclone config
 mkdir -p $HOME/.config/rclone
 cp rclone.conf $HOME/.config/rclone/rclone.conf
+cat $HOME/.config/rclone/rclone.conf
